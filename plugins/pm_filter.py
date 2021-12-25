@@ -271,11 +271,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/SLBotsOfficial'),
-                    InlineKeyboardButton('Source Code', url='https://github.com/TR-TECH-GUIDE/Media-Search-bot')
+                    InlineKeyboardButton('Update Channel', url='https://t.me/cinee_update'),
+                    InlineKeyboardButton('how to use bot', url='https://t.me/cinee_update')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/TharukRenuja'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/TR-TECH-GUIDE/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/SLBotsOfficial'>SLBotsOfficial</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>contact : <a href='https://t.me/ravi00893'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/TR-TECH-GUIDE/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/SLBotsOfficial'>SLBotsOfficial</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -296,8 +296,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/SLBotsofficial/28'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/SLBotsOfficial')
+                        InlineKeyboardButton('More Bots', url='https://t.me/cinee_update'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/cinee_update')
                     ]
                     ]
                 
@@ -328,8 +328,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/SLBotsofficial/28'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/SLBotsOfficial')
+                        InlineKeyboardButton('More Bots', url='https://t.me/cinee_update'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/cinee_update')
                     ]
                     ]
                 
