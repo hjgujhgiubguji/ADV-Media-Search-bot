@@ -81,9 +81,9 @@ logger - Get log file
 
 
 ## Support
-Contact Me On [Telegram](https://t.me/TharukRenuja)
+Contact Me On [Telegram](https://t.me/ravi00893)
 
-[Update Channel](https://t.me/SLBotsOfficial)
+[Update Channel](https://t.me/cinee_update)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
