@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/SLBotsofficial/28')
+                        InlineKeyboardButton('More Bots', url='https://t.me/cinee_update')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Other Bots", url="https://t.me/SLBotsofficial/28")
+                        InlineKeyboardButton("Other Bots", url="https://t.me/hkbotscreator")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -192,8 +192,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/SLBotsOfficial'),
-            InlineKeyboardButton('Source Code', url='https://github.com/TR-TECH-GUIDE/Media-Search-bot')
+            InlineKeyboardButton('Update Channel', url='https://t.me/cinee_update'),
+            InlineKeyboardButton('how to use bot', url='https://t.me/cinee_update')
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/TharukRenuja'>Tharuk</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/TR-TECH-GUIDE/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/SLBotsOfficial'>SLBotsOfficial</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>contact : <a href='https://t.me/ravi00893'>Tharuk</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/TR-TECH-GUIDE/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/SLBotsOfficial'>SLBotsOfficial</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
